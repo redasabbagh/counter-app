@@ -1,0 +1,67 @@
+body {
+    text-align: center;
+    background-image: url(background-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: 350px;
+    padding: 4px 8px;
+    margin: 20px auto;
+    background-color: white;
+    border: 4px solid #333333;
+    border-radius: 8px;
+}
+
+#page-title {
+    color: #333333;
+    margin-bottom: 5px;
+}
+
+#counter {
+    color: #333333;
+    font-size: 64px;
+    font-weight: 600;
+
+}
+
+button {
+    display: block;
+    width: 180px;
+    margin: 5px auto;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    box-shadow: 0 2px 5px #333333;
+    color:white;
+}
+
+#increment-btn {
+    background-color:#5f9ea0;
+    text-shadow: 0 1px 6px  #121212;
+    
+}
+
+#save-btn {
+    background-color: #C6A15B;
+    text-shadow: 0 1px 6px  #121212;
+}
+
+#reset-btn {
+    background-color: #1F363D;
+    text-shadow: 0 1px 6px  #333333;
+}
+
+#entries {
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
